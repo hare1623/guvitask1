@@ -1,0 +1,25 @@
+
+var maximumSummary= {
+        "Maximum Capacity": "2048 MBytes",
+        "Maximum Memory Module Size": "4096 MBytes",
+        "Memory Slots": 4,
+        "Error Connection": "None",
+        "DRAM Frequency": "199.0 MHz",
+        "Memory Timings": "3-3-3-8 (CL-RCD-RP-RAS)"
+    };
+var deviceLocator= {
+        "Manufacturer": "Hyundai Electronics",
+        "Part Manufacturer": "HYMD264 646D8J-D43",
+        "Serial Number": "FFFF7240",
+        "Capacity": "512 MBytes",
+        "Memory Type": "DDR (PC3200)",
+        "Speed": "200 MHz",
+        "Supported Frequencies": ["133 MHz","166 MHz","200 MHz"],
+        "Memory Timings": ["2-2-2-6-0 at 133 MHz","2-3-3-7-0 at 166 MHz","3-3-3-8-0 at 200 Mhz"],
+        "Data Width": "64 bits",
+        "Manufacturing Date": "2005, Week 39",
+        "EPP SPD Support": "No",
+        "XMP SPD Support": "No"};
+
+
+console.log(deviceLocator['Memory Timings'][2]);
