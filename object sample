@@ -21,5 +21,4 @@ var deviceLocator= {
         "EPP SPD Support": "No",
         "XMP SPD Support": "No"};
 
-
 console.log(deviceLocator['Memory Timings'][2]);
